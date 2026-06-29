@@ -1,12 +1,31 @@
 # 📈 Stock Market Strategy Backtester
 
-An interactive web application that evaluates a Moving Average Crossover Trading Strategy using historical stock market data from Yahoo Finance. The application compares the strategy's performance against a traditional Buy & Hold investment approach and provides detailed visualizations, performance metrics, and downloadable reports.
+An interactive web application that evaluates a **Moving Average Crossover Trading Strategy** using historical stock market data from **Yahoo Finance**. The application compares the strategy's performance against a traditional **Buy & Hold** investment approach and provides detailed visualizations, performance metrics, and downloadable reports.
 
 ---
 
-# 🚀 Live Demo
+## 🚀 Live Demo
 
-Streamlit App: http://stock-market-strategy-backtester.streamlit.app/
+**Streamlit App:** *http://stock-market-strategy-backtester.streamlit.app/*
+
+---
+
+## 📷 Screenshots
+
+### Dashboard
+
+<img width="1919" height="969" alt="home" src="https://github.com/user-attachments/assets/76ce9c2e-742f-4492-b9d0-a552ed780181" />
+
+
+### Charts
+
+<img width="1408" height="835" alt="charts" src="https://github.com/user-attachments/assets/a988fcdd-93ea-494e-97c6-86db4d23b09c" />
+
+
+### Performance Overview
+
+<img width="1427" height="576" alt="overview" src="https://github.com/user-attachments/assets/58afa846-104c-4287-8573-9f481dfa4ab2" />
+
 
 ---
 
@@ -28,15 +47,15 @@ Streamlit App: http://stock-market-strategy-backtester.streamlit.app/
 
 # 📊 Trading Strategy
 
-The application implements a Moving Average Crossover Strategy.
+The application implements a **Moving Average Crossover Strategy**.
 
-# Buy Signal
+### Buy Signal
 
 A BUY signal is generated when:
 
 * 20-Day Moving Average crosses **above** the 50-Day Moving Average.
 
-# Sell Signal
+### Sell Signal
 
 A SELL signal is generated when:
 
@@ -94,6 +113,7 @@ The application provides four interactive charts:
 
 # 📁 Project Structure
 
+```
 Stock-Market-Strategy-Backtester/
 │
 ├── app.py
@@ -110,7 +130,7 @@ Stock-Market-Strategy-Backtester/
 │
 ├── data/
 └── screenshots/
-
+```
 
 ---
 
@@ -118,31 +138,35 @@ Stock-Market-Strategy-Backtester/
 
 Clone the repository
 
-bash
-git clone https://github.com/YOUR_USERNAME/Stock-Market-Strategy-Backtester.git
+```bash
+git clone https://github.com/Bhumi2006-bit/Stock-Market-Strategy-Backtester.git
+```
 
 Move into the project directory
 
-bash
+```bash
 cd Stock-Market-Strategy-Backtester
+```
 
 Create a virtual environment
 
 ### Windows
 
-bash
+```bash
 python -m venv .venv
+```
 
 Activate it
 
-bash
+```bash
 .venv\Scripts\activate
+```
 
 Install dependencies
 
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 ---
 
@@ -150,8 +174,9 @@ pip install -r requirements.txt
 
 Start the Streamlit app
 
-bash
+```bash
 streamlit run app.py
+```
 
 The application will open in your browser.
 
@@ -160,21 +185,46 @@ The application will open in your browser.
 # 📄 Example Inputs
 
 Ticker
+
+```
 TCS.NS
+```
+
 or
+
+```
 RELIANCE.NS
+```
+
 or
+
+```
 INFY.NS
+```
+
 or
+
+```
 AAPL
+```
 
 Start Date
+
+```
 2020-01-01
+```
+
 End Date
+
+```
 2025-12-31
+```
 
 Initial Capital
+
+```
 100000
+```
 
 ---
 
@@ -204,11 +254,11 @@ The application generates:
 
 # 👩‍💻 Author
 
-Bhumi Asati
+**Bhumi Asati**
 
 GitHub: https://github.com/Bhumi2006-bit
 
-LinkedIn: https://www.linkedin.com/in/bhumi-asati-31b509280/
+LinkedIn: https://www.linkedin.com/in/bhumi-asati-31b509280
 
 ---
 
